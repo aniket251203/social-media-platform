@@ -12,7 +12,9 @@
     function hasOwn(obj, key) {
         return hasOwnProperty.call(obj, key);
     }
-
+    //  here define the hyphenate function
+    //  this function is used to convert camelCase to kebab-case
+    //  for example: backgroundColor -> background-color
     var hyphenateCache = {};
     var hyphenateRe = /([a-z\d])([A-Z])/g;
 
