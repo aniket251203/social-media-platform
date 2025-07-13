@@ -25,6 +25,8 @@
 
 /* margin is added around the window to keep a visual reference
  * to the underlying page at all times.
+  * This is used to make sure the window doesn't cover the entire screen
+  * and to make sure the window is always visible on smaller screens.
  */
 .strp-window { margin-left: 40px; }
 .strp-window.strp-vertical { margin-left: 0; margin-bottom: 40px; }
