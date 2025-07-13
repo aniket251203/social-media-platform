@@ -9,7 +9,7 @@
 .dash-hover-scale:hover { cursor: pointer; transform: scale(1.1); transition: all 200ms ease-in-out; }
 .dash-hover-gradient:hover .iq-card-body *, .dash-hover-gradient:hover .iq-card-header i { color: #fff; }
 
-
+/*  here find the    */
 .transformY-min-15 { transform: translateY(-15px); }
 .transformY-min-45 { transform: translateY(-45px); }
 .text-gray { color: #aaa; }
@@ -72,3 +72,4 @@
 ::-webkit-scrollbar-thumb:hover { background: #555; border-radius: 20px; }
 .dash-tracking-icon { height: 100px; }
 .transformX-min-1 { transform: scaleX(-1); }
+/* end of the file */
